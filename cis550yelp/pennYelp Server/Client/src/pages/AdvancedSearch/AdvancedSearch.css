@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-image: url('./s1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.search-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .results-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .result-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .result-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .result-name-stars {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .result-stars {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+  
+  .result-city,
+  .result-state {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .no-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20;
+    font-weight: bold;
+  }
+  
+  .no-results img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .pageButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+  }
+  
+  .pageButton:hover {
+    background-color: #45a049;
+  }
+  
+  .pageButton:disabled {
+    background-color: #9E9E9E;
+    cursor: not-allowed;
+  }
+
+  .result-item-options {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    z-index: 100;
+}
+
+.result-item-options span {
+    background-color: #f2f2f2;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}

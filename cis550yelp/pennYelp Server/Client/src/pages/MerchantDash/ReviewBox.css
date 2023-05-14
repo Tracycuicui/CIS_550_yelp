@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .review-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 4px;
+    width: 900px; 
+    height: 300px; 
+    overflow-y: auto; 
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .review-date {
+    font-size: 0.9em;
+    color: #757575;
+    margin-bottom: 10px;
+  }
+  
+  .review-stars {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pageButton {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    color: #757575;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  .pageButton:hover {
+    background-color: #e0e0e0;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s;
+  }
+  
+  .fade-out {
+    animation: fadeOut 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

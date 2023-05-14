@@ -1,0 +1,71 @@
+.Hcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.Hlogo img {
+    max-width: 210px;
+    margin-bottom: 32px;
+    margin-top:-2000px;
+}
+
+.HsearchBar input {
+    width: 260%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transform: translateX(-225px);
+}
+
+.HsearchBar input:focus {
+    border: 1px solid #4d90fe;
+}
+
+.HselectBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    width: 100%;
+}
+
+
+
+.Hfooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.Hauthor {
+    font-size: 20px;
+    color:#060606
+    /* color: #f06; 设置鲜艳的颜色，您可以根据需要更改 */
+}
+
+.HsearchButton {
+    background-color: #4d90fe; /* 按钮背景颜色，您可以根据需要更改 */
+    color: #fff; /* 按钮文字颜色 */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* 在按钮和选择条之间添加一些空间 */
+    display: block; /* 将按钮设置为块级元素 */
+    margin-left: auto; /* 使按钮在容器内居中 */
+    margin-right: auto; /* 使按钮在容器内居中 */
+}

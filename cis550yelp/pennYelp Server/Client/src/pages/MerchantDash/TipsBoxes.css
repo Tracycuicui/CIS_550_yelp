@@ -1,0 +1,144 @@
+.tips-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tips-container h2 {
+    font-size: 2rem;
+    text-align: right;
+    margin-left: 50px;
+  }
+
+.tips-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .tip-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    min-width: 300px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+
+.tip-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tip-date {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.tip-compliment {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+.tip-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .card-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 400px);
+    transform: translate(0, 0);
+  }
+  
+  .card-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-close-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-page-number {
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .prev-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 470px;
+    margin-right: 20px;
+  }
+
+
+  .next-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .prev-btn:disabled,
+  .next-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  
+  
+  

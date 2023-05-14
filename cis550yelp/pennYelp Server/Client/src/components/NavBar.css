@@ -1,0 +1,44 @@
+.customAppBar {
+    background-color: #1f2024;
+  }
+  
+  .customToolbar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .navItems {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .navItemContainer {
+    margin-left: 20px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: border-color 0.2s;
+  }
+  
+  .navItem {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .navItemContainer:hover {
+    border-color: #bbbbbb;
+  }
+  
+  .navItem:hover {
+    color: #bbbbbb;
+  }
+  
+  .logo {
+    height: 40px;
+  }
